@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    height:auto;
+    width: auto;
+    gap: 10px;
+    grid-template-areas:
+    'hd hd hd'
+    'side cont cont'
+    'side cont cont'
+    'side ft ft ft';
+}
+.box{
+    background-color: red;
+    border: 1px solid black;
+}
+#header{
+    grid-area: hd;
+}
+#footer{
+    grid-area: ft;
+}
+#content{
+    grid-area: cont;
+}
+#sidebar{
+    grid-area: side;
+}

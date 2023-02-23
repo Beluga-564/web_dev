@@ -1,0 +1,15 @@
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition: transform 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.05s;
+}
+.box:hover{
+    background-color: coral;
+    transform: translateX(600px) rotate(1000deg);
+}

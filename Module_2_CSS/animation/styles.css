@@ -1,0 +1,23 @@
+.container{
+    height: 202px;
+    background-color: yellow;
+}
+.box{
+    height: 200px;
+    animation-name: pankaj;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    background-color: brown;
+}
+@keyframes pankaj{
+    from{
+        width:0px;
+    }
+    to{
+        width: 1020px;
+
+    }
+}

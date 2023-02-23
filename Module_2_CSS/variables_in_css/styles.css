@@ -1,0 +1,11 @@
+:root{
+    --sky-blue:rgb(103, 250, 236);
+}
+.container{
+    background-color: var(--sky-blue);
+    height: 100vh;
+}
+.box{
+    background-color: black;
+    color: white;
+}
